@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>thethiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            padding: 20px;
+        }
+        .about, .articles, .photos, .contact {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #444;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>thethiz</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#articles">Articles</a>
+        <a href="#photos">Photography</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Welcome to thethiz! This is a space where I share my thoughts through articles and showcase my photography. Stay tuned for exciting content!</p>
+        </section>
+        <section id="articles" class="articles">
+            <h2>Articles</h2>
+            <p>Here, you can find my latest articles on various topics.</p>
+            <!-- Example article -->
+            <article>
+                <h3>Article Title</h3>
+                <p>This is an example article. More content coming soon!</p>
+            </article>
+        </section>
+        <section id="photos" class="photos">
+            <h2>Photography</h2>
+            <p>Explore my photography collection.</p>
+            <!-- Example photo -->
+            <figure>
+                <img src="example.jpg" alt="Example Photo" style="width:100%;">
+                <figcaption>Example Photo</figcaption>
+            </figure>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>If you'd like to get in touch, please email me at <a href="mailto:contact@thethiz.com">contact@thethiz.com</a>.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 thethiz</p>
+    </footer>
+</body>
+</html>
